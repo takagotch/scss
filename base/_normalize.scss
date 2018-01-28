@@ -1,0 +1,29 @@
+
+html {
+  font-family: $FONT_FAMILY;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-size: 14px;
+}
+
+body{
+  @include rem(font-size, 14px);
+  margin: 0;
+  word-wrap: break-word;
+  color: #000;
+  line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
