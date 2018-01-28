@@ -1,0 +1,93 @@
+/* ampresand_example.css */
+
+.infobox{
+  color: blue;
+}
+.user .infobox{
+  color: gray;
+}
+.message{
+  color: gray;
+}
+.message.new{
+  color: red;
+}
+body.has-sidebar .infobox .message{
+  content: "body.has-sidebar .infobox .message";
+}
+
+/* commenting */
+button{
+  color: #999;
+}
+button.sidebar{
+  color: #DDD;
+}
+
+/* direct_descendants */
+.infobox > .message > .title{
+  color: red;
+}
+.infobox > .user > .title{
+  color: black;
+}
+
+/* ex_nesting.css */
+.infobox{
+  width: 200px;
+}
+.infobox .message{
+  border: 1px solid red;
+}
+.infobox .message .title{
+  color: red;
+}
+.infobox .user{
+  border: 2px solid black;
+}
+.infobox .user .title{
+  color: black;
+}
+
+/* importing */
+button{
+  background: #336699;
+}
+header{
+  height: 100px;
+}
+a{
+  color: green;
+}
+
+/* scoping */
+
+.infobox { width: 200px; }
+.infobox .message { border: 1px solid red; }
+.infobox .message .title { color: red; }
+.infobox .user { border: 2px solid black; }
+.infobox .user .title { color: black; }
+
+/* use_mixin */
+
+.input-error{
+  color: #AE2F2F;
+  font-size: 14px;
+  font-variant: small-caps;
+  margin-bottom: 10px;
+}
+
+/* variables */
+
+header{
+  background: #EEE;
+}
+header .menu{
+  width: 300px;
+  background: white;
+}
+header .menu a{
+  color: #369;
+}
+
+
