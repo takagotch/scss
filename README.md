@@ -43,7 +43,14 @@ large > midium > small
 ### viewport
 <meta name="viewport" content="widht=device=width, initial-scale=1">
 
+===
+
+** **
+
+```
 
 
+```
 
-
+- 
+  -
