@@ -43,7 +43,7 @@ large > midium > small
 ### viewport
 <meta name="viewport" content="widht=device=width, initial-scale=1">
 
-===
+[![scss](http://localhost:3000/)] []
 
 ** **
 
