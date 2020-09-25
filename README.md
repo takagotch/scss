@@ -1,8 +1,5 @@
 ### sass
 ---
-http://sass-lang.com/documentation/file.SASS_REFERENCE.html
-
-
 https://github.com/takagotch/page351/blob/master/src/styles/README.md
 
 centos8
@@ -69,7 +66,12 @@ gulp.task('watch', function() {
 
 ```
 
+---
 
+http://sass-lang.com/documentation/file.SASS_REFERENCE.html
+
+
+---
 ---
 
 https://www.npmjs.com/package/gulp-sass
