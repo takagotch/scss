@@ -1,4 +1,4 @@
-### sass
+### sass, compass
 ---
 https://github.com/takagotch/page351/blob/master/src/styles/README.md
 
