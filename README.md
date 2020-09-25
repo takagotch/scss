@@ -29,10 +29,46 @@ ubuntu
 ```.sh
 sudo apt-get install ruby
 sudo su -c "gem install sass"
+```
 
+```.sh
+cd sass_test
+sass src/styles/about.scss:src/styles/about.css
+```
 
+gulp
+```.sh
+cd sass_test
+npm init
+sudo npm install --global gulp
+npm install --save-dev gulp
+
+vi gulpfile.js
+gulp watch
+
+// node 環境設定、インストール
+export HTTPS_PROXY=http://tkgcci.com:8080
+sudo -E npm install --global gulp
+sudo npm config set https-proxy=http://tkgcci.com:8080
+sudo npm install --global gulp
+```
+
+```gulpfile.js
+var gulp = require('gulp');
+var sass = require('gulp-sass');
+
+gulp.task('sass', function() {
+  gulp.src('./src/styles/*.scss')
+    .pipe(sass())
+    .pipe(gulp.dest('./styles/css'))
+});
+
+gulp.task('watch', function() {
+  gulp.watch('./src/styles/*.scss', ['sass']);
+});
 
 ```
+
 
 ---
 
