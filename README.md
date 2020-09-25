@@ -1,6 +1,13 @@
 ### sass
-
+---
 http://sass-lang.com/documentation/file.SASS_REFERENCE.html
+
+
+https://github.com/takagotch/page351/blob/master/src/styles/README.md
+
+```
+```
+
 
 ---
 
@@ -8,7 +15,7 @@ https://www.npmjs.com/package/gulp-sass
 https://www.npmjs.com/package/gulp-sass-glob
 https://github.com/twbs/bootstrap-sass
 
-###responsive
+####### responsive
 * large<br>
 801px~
 * midium<br>
@@ -16,7 +23,7 @@ https://github.com/twbs/bootstrap-sass
 * small<br>
 ~600px
 
-###media query
+###### media query
 large > midium > small
 
 /* large css */
@@ -40,7 +47,7 @@ large > midium > small
   .c-disp{display: none;}
 }
 
-### viewport
+###### viewport
 <meta name="viewport" content="widht=device=width, initial-scale=1">
 
 [![scss](http://localhost:3000/)] []
